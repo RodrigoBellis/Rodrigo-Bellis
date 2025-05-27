@@ -14,6 +14,6 @@ Confira meus projetos acadêmicos e pessoais aqui no GitHub!
 
 \#### 📬 Como falar comigo:
 - 📧 Email: rodrigobellis2004@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/rodrigobellis](https://www.linkedin.com/in/rodrigobellis) 
-
+- 💼 LinkedIn: www.linkedin.com/in/rodrigo-bellis-ba3255204
+- 
 💡 *Obrigado por visitar meu perfil! Estou sempre aberto a novos projetos, ideias e parcerias.*
