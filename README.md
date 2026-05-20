@@ -10,8 +10,8 @@
 
 ```
 🎓  Ciência da Computação — PUC Minas
-💻  Full Stack Developer  ·  Node.js  ·  JavaScript  ·  Java  ·  C
-🚀  Projetos reais com arquitetura MVC, JWT e IA
+💻  Full Stack Developer  ·  Node.js  ·  React  ·  Java  ·  C
+🚀  Projetos reais: OCR, PDF parsing, automação e arquitetura MVC
 📍  Belo Horizonte, MG — Brasil
 ```
 
@@ -21,18 +21,16 @@
 
 ## 🧑‍💻 Sobre mim
 
-Olá! Sou **Rodrigo Bellis**, estudante de **Ciência da Computação** na **PUC Minas**, com foco em desenvolvimento **Full Stack**. Tenho experiência com backend em **Node.js/Express**, frontend modular com **JavaScript ES6+**, bancos de dados relacionais e integração com **Inteligência Artificial**.
-
-Gosto de construir sistemas reais com código limpo, arquitetura bem definida e segurança em primeiro lugar.
+Olá! Sou **Rodrigo Bellis**, estudante de **Ciência da Computação** na **PUC Minas**, com foco em desenvolvimento **Full Stack**. Construo sistemas reais com backend robusto em **Node.js/Express**, interfaces modernas em **React** e integração com **IA e processamento de documentos**.
 
 ```javascript
 const rodrigo = {
   educação   : "Ciência da Computação @ PUC Minas",
   foco       : ["Full Stack Dev", "Arquitetura de Software", "APIs REST"],
   backend    : ["Node.js", "Express", "JWT", "SQLite", "bcrypt"],
-  frontend   : ["JavaScript ES6+", "HTML5", "CSS3", "Chart.js"],
+  frontend   : ["React", "JavaScript ES6+", "HTML5", "CSS3", "Vite"],
   linguagens : ["JavaScript", "Java", "C"],
-  extras     : ["OCR / IA", "MVC Pattern", "Clean Code", "Git Flow"],
+  extras     : ["OCR / IA", "PDF Parsing", "Docker", "CI/CD", "MVC"],
   contato    : "rodrigobellis2004@gmail.com",
 };
 ```
@@ -46,22 +44,23 @@ const rodrigo = {
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### 🎨 Frontend
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 ### 💬 Linguagens
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-### 🔧 Ferramentas
+### 🔧 DevOps & Ferramentas
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
@@ -83,19 +82,41 @@ const rodrigo = {
 <div align="center">
 
 [![SmartPark](https://github-readme-stats.vercel.app/api/pin/?username=RodrigoBellis&repo=Smartpark&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/RodrigoBellis/Smartpark)
+[![CPFL Reader](https://github-readme-stats.vercel.app/api/pin/?username=RodrigoBellis&repo=bot-cpfl&theme=github_dark&hide_border=true&title_color=4ade80&icon_color=4ade80&text_color=c9d1d9)](https://github.com/RodrigoBellis/bot-cpfl)
 
 </div>
 
-### 🅿️ SmartPark — Sistema de Gerenciamento de Estacionamento
-> `Node.js` · `Express` · `SQLite` · `JWT` · `Tesseract.js` · `ES Modules`
+<div align="center">
 
-Sistema completo de gerenciamento de estacionamento universitário (Projeto TI2 — PUC Minas):
+[![Relatório PDF](https://github-readme-stats.vercel.app/api/pin/?username=RodrigoBellis&repo=relatorio-economia-pdf&theme=github_dark&hide_border=true&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9)](https://github.com/RodrigoBellis/relatorio-economia-pdf)
 
-- 🔐 **Autenticação JWT** — middleware + roles admin/usuário + troca forçada de senha
-- 🤖 **OCR de Placas** — reconhecimento automático via Tesseract.js e Claude AI
-- 🗺️ **Mapa Interativo** — 60 vagas em tempo real, setores A/B/C com filtros
-- 📊 **Dashboard Admin** — gráficos com dados reais, auto-refresh 30s
-- 🏗️ **Arquitetura MVC** — 7 controllers, 16 endpoints REST, 6 módulos ES6
+</div>
+
+---
+
+### 🅿️ SmartPark — Estacionamento Universitário
+> `Node.js` `Express` `SQLite` `JWT` `Tesseract.js` `ES Modules` `Docker` `CI/CD`
+
+- 🔐 JWT Auth com middleware + roles + troca forçada de senha
+- 🤖 OCR de placas com Tesseract.js e Claude AI
+- 🗺️ Mapa interativo de 60 vagas com auto-refresh
+- 🧪 Testes Jest + pipeline CI no GitHub Actions
+- 🐳 Dockerizado com multi-stage build e healthcheck
+
+### 🔋 CPFL Reader — Extrator de Faturas
+> `React 18` `Vite` `pdfjs-dist` `xlsx`
+
+- ⚡ Extração automática de todos os campos de faturas CPFL em < 1s
+- 🌞 Suporte a sistemas fotovoltaicos (energia injetada TUSD/TE)
+- 📊 Export para Excel com uma aba por instalação
+- 🔢 Auto-detecção de CPF/CNPJ
+
+### 📄 Relatório Econômico PDF — Parser Full Stack
+> `React 18` `Node.js` `Express` `pdf-parse` `Render`
+
+- Full Stack monorepo (React + Node.js)
+- Upload de PDF → extração automática → mensagem formatada
+- Deploy em produção no Render
 
 ---
 
@@ -113,7 +134,7 @@ Sistema completo de gerenciamento de estacionamento universitário (Projeto TI2 
 
 <div align="center">
 
-*"Primeiro faça funcionar, depois faça certo e, somente então, faça rápido."*  
+*"Primeiro faça funcionar, depois faça certo e, somente então, faça rápido."*
 — **Kent Beck**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0d1117&height=100&section=footer" />
